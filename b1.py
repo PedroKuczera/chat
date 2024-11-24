@@ -6,7 +6,7 @@ from twitchio.ext import eventsub, commands
 # Configurações fáceis de editar
 TOKEN_BOT = "oauth:hkyhe007cpac10u2dxzdimajyb4rko"  # Token da conta da twitch
 USUARIO_ESPECIFICO = "marcosdias87"  # Nome de usuário que o bot vai procurar
-RESPOSTA_BOT = "TotyComend"  # Mensagem que o bot vai enviar
+RESPOSTA_BOT = "Bagre"  # Mensagem que o bot vai enviar
 NUMERO_PARTICIPANTES = 1  # Número de participantes necessários para ativar o comando
 TEMPO_AWAIT_RESPOSTA = 4  # Tempo de espera (em segundos) antes de enviar a resposta (configurável)
 TEMPO_INTERVALO_COMANDO = 2400  # Tempo (em segundos) entre o envio dos comandos
