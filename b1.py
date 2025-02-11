@@ -4,8 +4,8 @@ import time
 from twitchio.ext import eventsub, commands
 
 # Configurações fáceis de editar
-TOKEN_BOT = "oauth:hkyhe007cpac10u2dxzdimajyb4rko"  # Token da conta da twitch
-USUARIO_ESPECIFICO = "marcosdias87"  # Nome de usuário que o bot vai procurar
+TOKEN_BOT = ""  # Token da conta da twitch
+USUARIO_ESPECIFICO = ""  # Nome de usuário que o bot vai procurar
 RESPOSTA_BOT = "Bagre"  # Mensagem que o bot vai enviar
 NUMERO_PARTICIPANTES = 1  # Número de participantes necessários para ativar o comando
 TEMPO_AWAIT_RESPOSTA = 4  # Tempo de espera (em segundos) antes de enviar a resposta (configurável)
@@ -14,17 +14,15 @@ TEMPO_AWAIT_COMANDO = 4  # Tempo de espera (em segundos) antes de enviar o coman
 
 # Lista de canais que o bot vai monitorar
 canais_twitch = [
-    "Bagrezada"
+    ""
 ]
 
 # Nome dos bots de sorteio
-bots_twitch = ["nightbot", "moobot", "bagrezada"]
+bots_twitch = ["nightbot", "moobot"]
 
 # Comandos válidos para o sorteio (facilmente editáveis)
 comandos_validos = [
-    "!sorteio", "!garuda", "!flame", "!mc", "!mp", "!pvp", "!mega", 
-    "!bora", "!ruivo", "!duuh", "!kazar", "!anonimo", "!mestre", 
-    "!atazotty", "!dugaras", "!titox", "!casalx", "!mpp"]  # Adicione/Remova os comandos aqui
+    "!sorteio","!mega"]  # Adicione/Remova os comandos aqui
 
 class Bot(commands.Bot):
     def __init__(self):
